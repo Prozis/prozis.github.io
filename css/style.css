@@ -9,33 +9,38 @@
   font-family: 'Philosopher', sans-serif;
 }
 body {
-font-size: 20px;
+  font-size: 20px;
 }
 h2{
   margin: 30px 0;
   text-align: center;
-
 }
-  a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    display: inline-block; }
-header{
-  height: 400px;
-  background-image: url('../img/back.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block; }
+  header{
+    height: 400px;
+    background-image: url('../img/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     position: relative;
-}
-nav {
-  position: absolute;
-  right: 0;
-  margin: 20px 30px;
-}
-nav a {
+  }
+  .container{
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 15px;
+    /* background-color: #FFFAFA; */
+  }
+  nav {
+    position: absolute;
+    right: 0;
+    margin: 20px 30px;
+  }
+  nav a {
     display: inline-block;
     border: 1px solid transparent;
     -webkit-transition: 0.6s;
@@ -44,51 +49,58 @@ nav a {
     padding: 16px 30px;
     font-size: 16px;
     color: white;
-font-weight: bold;
+    font-weight: bold;
   }
   nav a:hover {
     border: 2px solid white; }
-.main-header{
-  color: white;
-  text-align: center;
-margin: auto;
-  }
-  .main-header h1{
-font-size: 60px;
-font-weight: bold;
-  }
-.container{
-  max-width: 900px;
-  margin: 0px auto;
-  padding: 30px 15px;
-}
-.about p{
-  margin:0.5em 0;
-}
-.about ul {
-  padding-left: 50px;
-}
-.my-works{
-  display: flex;
-}
-.work{
-  text-align: center;
-  width: 250px;
-  /* display: inline-block; */
-  margin: 20px 15px auto 15px;
+    .main-header{
+      color: white;
+      text-align: center;
+      margin: auto;
+    }
+    .main-header h1{
+      font-size: 60px;
+      font-weight: bold;
+    }
+    .gradient{
+      height: 50px;
+      background: linear-gradient(#181818, white);
+    }
 
-}
-footer{
-  font-size: 15px;
-  font-weight: bold;
-text-align: right;
-  background-color: #888B91;
-}
-.contact{
-  text-align: center;
-  background: linear-gradient(white, #888B91);
-}
-.contact img{
-  height: 40px;
-  margin: 0 20px;
-}
+    .about p{
+      margin:0.5em 0;
+    }
+    .about ul {
+      padding-left: 50px;
+    }
+    .my-works{
+      display: flex;
+    }
+    .work{
+      text-align: center;
+      width: 250px;
+      /* display: inline-block; */
+      margin: 20px 15px auto 15px;
+
+    }
+    footer{
+      font-size: 15px;
+      font-weight: bold;
+      background: linear-gradient(white, #181818);
+      /* background-color: #181818; */
+      padding: 30px;
+      height: 200px;
+      display: flex;
+    }
+    #copyrights{
+      margin-top: auto;
+      margin-left: auto;
+    }
+    .contact{
+      text-align: center;
+
+    }
+    .contact img{
+      height: 50px;
+      margin: 0 20px;
+    }
