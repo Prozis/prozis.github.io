@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700&display=swap&subset=cyrillic');
 
 
+
 * {
   padding: 0;
   margin: 0;
@@ -103,4 +104,13 @@ a {
     .contact img{
       height: 50px;
       margin: 0 20px;
+    }
+    @media (max-width: 800px) {
+      .my-works{
+        display: block;
+
+      }
+      .work{
+        margin: 30px auto;
+      }
     }
